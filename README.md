@@ -10,13 +10,13 @@ stories above the median.
 
 Open the file bin/app.rb and change the email addresses.
 
-  MAIL_FROM = <your_email@foo.com>
-  MAIL_TO   = <your_email@foo.com>
+    MAIL_FROM = <your_email@foo.com>
+    MAIL_TO   = <your_email@foo.com>
 
 By default it will send emails through a local email server (localhost:25). To change the email server add more
 options in send_email method.
 
-  hackernews.send_email(host:'localhost', port:25, from:MAIL_FROM, to:MAIL_TO) # send to localhost:25 by default
+    hackernews.send_email(host:'localhost', port:25, from:MAIL_FROM, to:MAIL_TO) # send to localhost:25 by default
 
 
 == How to use it
